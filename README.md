@@ -2,7 +2,7 @@
 
 This repository contains the official PyTorch implementation of the NeurIPS 2026 paper "Post-Training Quantization with Gradient-Projected Fisher Approximation for Vision Transformers".
 
-The implementation of our proposed method is built upon the official codebase of FIMA-Q. We sincerely thank the authors for providing their codebase.
+The implementation of our proposed method is built upon the official codebase of [FIMA-Q](https://github.com/ShiheWang/FIMA-Q/tree/main). We sincerely thank the authors for providing their codebase.
 
 
 ![overview](./assets/main_fig.png)
