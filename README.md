@@ -2,6 +2,9 @@
 
 This repository contains the official PyTorch implementation of the NeurIPS 2026 paper "Post-Training Quantization with Gradient-Projected Fisher Approximation for Vision Transformers".
 
+The implementation of our proposed method is built upon the official codebase of FIMA-Q. We sincerely thank the authors for providing their codebase.
+
+
 ![overview](./assets/main_fig.png)
 
 ## Getting Started
@@ -18,20 +21,6 @@ cd GPFA-Q
 ```bash
 pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
 pip install timm==0.9.2 "numpy<2"
-```
-
-All experiments were run with Python 3.10, torch 2.2.2 (CUDA 12.1), torchvision 0.17.2 and timm 0.9.2 on a single RTX 4090.
-
-- Prepare ImageNet in the `ImageFolder` layout. `--dataset` points to the directory that contains `train/` and `val/`.
-
-```
-<IMAGENET>/
-├── train/
-│   ├── n01440764/*.JPEG
-│   └── ...
-└── val/
-    ├── n01440764/*.JPEG
-    └── ...
 ```
 
 - Pretrained models are downloaded automatically by timm.
