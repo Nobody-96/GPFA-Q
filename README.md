@@ -1,4 +1,4 @@
-## GPFA-Q: Post-Training Quantization with Gradient-Projected Fisher Approximation for Vision Transformers
+## Post-Training Quantization with Gradient-Projected Fisher Approximation for Vision Transformers
 
 This repository contains the official PyTorch implementation of the NeurIPS 2026 paper "Post-Training Quantization with Gradient-Projected Fisher Approximation for Vision Transformers".
 
